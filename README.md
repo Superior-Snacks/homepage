@@ -1,4 +1,3 @@
 # Homepage
 
-a personal cv
-some games
+a personal cv and some games
