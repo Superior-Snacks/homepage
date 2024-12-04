@@ -12,4 +12,5 @@ from django.urls import reverse
 def index(request):
     return render(request, "first_page/index.html")
 
-
+def games_page(request):
+    return render(request, "first_page/games_page.html")
