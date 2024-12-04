@@ -5,5 +5,6 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-    
+    path("", views.index, name="index"),
+    path("games_page", views.games_page, name="games_page")
 ]
