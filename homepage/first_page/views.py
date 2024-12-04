@@ -8,3 +8,8 @@ from django.urls import reverse
 #from .models import
 
 # Create your views here.
+
+def index(request):
+    return render(request, "first_page/index.html")
+
+
